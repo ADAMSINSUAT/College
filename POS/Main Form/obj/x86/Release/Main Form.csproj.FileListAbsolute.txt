@@ -1,0 +1,34 @@
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\bin\Release\Main Form.exe.config
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\bin\Release\POS.mdf
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\bin\Release\POS_log.ldf
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\bin\Release\Main Form.exe
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\bin\Release\Main Form.pdb
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\obj\x86\Release\Main_Form.Form1.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\obj\x86\Release\Main_Form.POS.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\obj\x86\Release\Main_Form.Properties.Resources.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\obj\x86\Release\Main Form.csproj.GenerateResource.Cache
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\obj\x86\Release\Main Form.exe
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\obj\x86\Release\Main Form.pdb
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\obj\x86\Release\Main_Form.Cashier.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\obj\x86\Release\Main_Form.Register.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\obj\x86\Release\Main_Form.Login.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form\Main Form\obj\x86\Release\Main_Form.DailySales.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\bin\Release\POS.mdf
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\bin\Release\POS_log.ldf
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\bin\Release\Main Form.exe.config
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\bin\Release\Main Form.exe
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\bin\Release\Main Form.pdb
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\obj\x86\Release\Main_Form.Cashier.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\obj\x86\Release\Main_Form.DailySales.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\obj\x86\Release\Main_Form.Form1.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\obj\x86\Release\Main_Form.Login.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\obj\x86\Release\Main_Form.POS.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\obj\x86\Release\Main_Form.Properties.Resources.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\obj\x86\Release\Main_Form.Register.resources
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\obj\x86\Release\Main Form.csproj.GenerateResource.Cache
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\obj\x86\Release\Main Form.exe
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\obj\x86\Release\Main Form.pdb
+d:\Users\Dell-pc\Desktop\New Folder\Main Form1\Main Form\obj\x86\Release\Main Form.csprojResolveAssemblyReference.cache
+d:\Users\Dell-pc\Desktop\Main Form1\Main Form\bin\Release\Main Form.exe.config
+d:\Users\Dell-pc\Desktop\Main Form1\Main Form\obj\x86\Release\Main Form.exe
+d:\Users\Dell-pc\Desktop\Main Form1\Main Form\obj\x86\Release\Main Form.pdb
