@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FoodMenuApp.TemplateTabViewPage.TabViewPageTemplate">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="FoodMenuListView" Margin="20" RowHeight="80" IsPullToRefreshEnabled="False" ItemTapped="OnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <FlexLayout Direction="Row" JustifyContent="SpaceEvenly">
+                                <!--<Image Source="{Binding FoodPic, Converter={StaticResource ByteArraytoImage}}" MinimumWidthRequest="20" ></Image>-->
+                                <Image Source="{Binding FoodPic, Converter={StaticResource ByteArraytoImage}}" MinimumWidthRequest="20" ></Image>
+                                <Label x:Name="{FoodId}" Text="{Binding FoodId}" IsVisible="False" MinimumWidthRequest="20" HorizontalOptions="Fill"></Label>
+                                <Label x:Name="{FoodName}" Text="{Binding FoodName}" MinimumWidthRequest="20" HorizontalOptions="Fill"></Label>
+                                <Label x:Name="{FoodPrice}" Text="{Binding FoodPrice}" MinimumWidthRequest="20" HorizontalOptions="Fill"></Label>
+                                <Label x:Name="{FoodCategory}" Text="{Binding FoodCategory}" MinimumWidthRequest="20" HorizontalOptions="Fill"></Label>
+                            </FlexLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

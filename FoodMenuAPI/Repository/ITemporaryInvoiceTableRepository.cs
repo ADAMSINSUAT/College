@@ -1,0 +1,14 @@
+﻿using FoodMenuAPITest.Models;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace FoodMenuAPITest.Repository
+{
+    public interface ITemporaryInvoiceTableRepository
+    {
+        JsonResult GetAllOrders(int id);
+    }
+}

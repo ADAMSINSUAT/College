@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:FoodMenuApp;assembly=FoodMenuApp"
+             x:Class="FoodMenuApp.FoodCartPage">
+    <ContentPage.Resources>
+        <local:ByteArrayToImageConverter x:Key="ByteArraytoImage"></local:ByteArrayToImageConverter>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout.GestureRecognizers>
+                <SwipeGestureRecognizer Direction="Down" 
+                                        Swiped="SwipeGestureRecognizer_Swiped_Down">
+                </SwipeGestureRecognizer>
+            </StackLayout.GestureRecognizers>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblOrderNumber" Grid.Row="0" Grid.Column="0" Text="Currently Serving:" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" IsVisible="False"></Label>
+                <Label x:Name="lblOrderNumberActual" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Text="{Binding FoodOrderNumber}" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" IsVisible="False"></Label>
+            </Grid>
+            <Label x:Name="lblNoItems" Text="There are no items in this foodcart:(Please order some food from the menu? :)"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="Center"  IsVisible="True"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+            <Grid Padding="0, 0, 0, 0" Margin="0, 10, 0, 0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+                <Label x:Name="txtName" Grid.Row="0" Grid.Column="0" Text="Name" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
+                <Label x:Name="txtQuantity" Grid.Row="0" Grid.Column="1" Text="Quantity" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
+                <Label x:Name="txtPrice" Grid.Row="0" Grid.Column="2" Text="Price" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
+                <Label x:Name="txtAmount" Grid.Row="0" Grid.Column="3" Text="Amount" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"></Label>
+                <Label x:Name="txtDelete" Grid.Row="0" Grid.Column="4" Text="Delete" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalTextAlignment="Start"></Label>
+            </Grid>
+            <ListView x:Name="FoodOrderCartListView" Margin="20" RowHeight="80" IsPullToRefreshEnabled="False" ItemTapped="OnItemSelected" IsVisible="False">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="5,0,0,5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid>
+                                <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40"></ColumnDefinition>
+                                        <ColumnDefinition Width="40"></ColumnDefinition>
+                                        <ColumnDefinition Width="40"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="40"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                </Grid>
+                                <!--CommandParameter="{Binding FoodOrderItem}"-->
+                            <!--<FlexLayout x:Name="FlexListView" Direction="Row" JustifyContent="SpaceEvenly">-->
+                                <Image Grid.Row="0" Grid.Column="0" Source="{Binding FoodOrderPic, Converter={StaticResource ByteArraytoImage}}" MinimumWidthRequest="20" ></Image>
+                                <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5" x:Name="{FoodOrderItem}" Text="{Binding FoodOrderItem}"  IsVisible="True"></Label>
+                                <!--<Label Grid.Row="1" Grid.Column="1" IsVisible="True"></Label>
+                                <Label Grid.Row="1" Grid.Column="2" IsVisible="True"></Label>
+                                <Label Grid.Row="1" Grid.Column="3" IsVisible="True"></Label>
+                                <Label Grid.Row="1" Grid.Column="4" IsVisible="True"></Label>
+                                <Label Grid.Row="1" Grid.Column="5" IsVisible="True"></Label>-->
+                                <Label Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="1" x:Name="{FoodOrderQuantity}" Text="{Binding FoodOrderQuantity}" VerticalOptions="Center" HorizontalOptions="Center" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
+                                <Label x:Name="{FoodOrderPrice}" IsVisible="False" Text="{Binding FoodOrderPrice}" VerticalOptions="Center"></Label>
+                                <Label Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="2" x:Name="{FoodOrderPriceString}" IsVisible="True" Text="{Binding FoodOrderPriceString}" VerticalOptions="Center" HorizontalOptions="End"></Label>
+                                <Label x:Name="{FoodOrderPriceAmount}" IsVisible="False" Text="{Binding FoodOrderPriceAmount}" VerticalOptions="Center" HorizontalOptions="Start"></Label>
+                                <Label Grid.Row="0" Grid.ColumnSpan="4" Grid.Column="3" x:Name="{FoodOrderAmountString}" Text="{Binding FoodOrderAmountString}" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+                                <Button Grid.Row="0" Grid.Column="6" x:Name="btnDelete" Text="Del" FontSize="8" HeightRequest="50" Clicked="btnDelete_Clicked" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+                                <!--<Label x:Name="{FoodOrderPriceVat}" Text="{Binding FoodOrderPriceVat}" IsVisible="False"></Label>-->
+                                <!--</FlexLayout>-->
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <FlexLayout AlignItems="Center" JustifyContent="Center" Direction="Column">
+                <Label Text="Take out"></Label>
+                <CheckBox x:Name="chkBxOrderType" IsChecked="False" IsEnabled="False"></CheckBox>
+            </FlexLayout>
+            <Button x:Name="btnOrder" Text="Order" HorizontalOptions="Center" Clicked="btnOrder_Clicked" IsEnabled="False"></Button>
+            <Button x:Name="btnClear" Text="Clear Orders" HorizontalOptions="Center" Clicked="btnClear_Clicked" IsEnabled="False"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

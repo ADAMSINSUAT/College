@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="lib\**" />
+    <Content Remove="lib\**" />
+    <EmbeddedResource Remove="lib\**" />
+    <None Remove="lib\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="AvailableFoodMenusController.cs" />
+    <Compile Remove="Controllers\AvailableFoodMenusController.cs" />
+    <Compile Remove="Controllers\TransactionController.cs" />
+    <Compile Remove="FoodMenuAppService.cs" />
+    <Compile Remove="IFoodMenuApp.cs" />
+    <Compile Remove="Models\AndroidFoodMenuDBContext.cs" />
+    <Compile Remove="Models\AvailableFoodMenu.cs" />
+    <Compile Remove="Models\CancelledOrderTable.cs" />
+    <Compile Remove="Models\CashierIdlist.cs" />
+    <Compile Remove="Models\CashierInfoList.cs" />
+    <Compile Remove="Models\CashierLoginCredentials.cs" />
+    <Compile Remove="Models\DailySalesTable.cs" />
+    <Compile Remove="Models\DefaultOrderNumberTable.cs" />
+    <Compile Remove="Models\DefaultTaxTable.cs" />
+    <Compile Remove="Models\DfltCashierId.cs" />
+    <Compile Remove="Models\DiscountTable.cs" />
+    <Compile Remove="Models\LoginTable.cs" />
+    <Compile Remove="Models\SeniorCitizensPwdsDiscountTable.cs" />
+    <Compile Remove="Models\TransactionDefaultId.cs" />
+    <Compile Remove="Models\UnavailableFoodMenu.cs" />
+    <Compile Remove="Models\UserList.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>
