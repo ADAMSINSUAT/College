@@ -1,0 +1,64 @@
+D:\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\Payroll System.exe.config
+D:\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\bin\Debug\Database1.mdf
+D:\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\bin\Debug\Database1_log.ldf
+D:\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\Payroll System.exe
+D:\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\Payroll System.pdb
+D:\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Addemp.resources
+D:\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Properties.Resources.resources
+D:\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.exe
+D:\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.pdb
+D:\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Printemp.resources
+D:\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Payroll.resources
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\Payroll System.exe.config
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.exe
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.pdb
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\bin\Debug\Database1.mdf
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\bin\Debug\Database1_log.ldf
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\Payroll System.exe
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\Payroll System.pdb
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Addemp.resources
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Payroll.resources
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Printemp.resources
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Printpayslip.resources
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Properties.Resources.resources
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.csproj.GenerateResource.Cache
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.csprojResolveAssemblyReference.cache
+C:\Users\LAB ADMIN\Desktop\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Printpayroll.resources
+D:\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Printpayroll.resources
+D:\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Printpayslip.resources
+D:\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Payroll_Login.resources
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.csprojResolveAssemblyReference.cache
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Addemp.resources
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Payroll_Login.resources
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Payroll.resources
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Printemp.resources
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Printpayroll.resources
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Printpayslip.resources
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Properties.Resources.resources
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.csproj.GenerateResource.Cache
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\Payroll System.exe.config
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\bin\Debug\Database1.mdf
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\bin\Debug\Database1_log.ldf
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\Payroll System.exe
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\Payroll System.pdb
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.exe
+C:\Users\mary jane g. sinsuat\Desktop\School Files\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.pdb
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\Payroll System.exe.config
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.exe
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.pdb
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\bin\Debug\Database1.mdf
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\bin\Debug\Database1_log.ldf
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\Payroll System.exe
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\bin\Debug\Payroll System.pdb
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Addemp.resources
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Payroll_Login.resources
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Payroll.resources
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Printemp.resources
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Printpayroll.resources
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Printpayslip.resources
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll_System.Properties.Resources.resources
+C:\Users\asus\Desktop\USB\AppDev_Sinsuat\Payroll System\Payroll System\obj\x86\Debug\Payroll System.csproj.GenerateResource.Cache
