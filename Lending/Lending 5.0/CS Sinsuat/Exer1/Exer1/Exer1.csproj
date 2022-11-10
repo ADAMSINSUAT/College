@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0DD5B4C2-A236-423B-9D00-7D520FBB0514}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Exer1</RootNamespace>
+    <AssemblyName>Exer1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addnewid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addnewid.Designer.cs">
+      <DependentUpon>Addnewid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addusers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addusers.Designer.cs">
+      <DependentUpon>Addusers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic Info.Designer.cs">
+      <DependentUpon>Basic Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Borrowers Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Borrowers Info.Designer.cs">
+      <DependentUpon>Borrowers Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Borrowersinfo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Borrowersinfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Confirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmation.Designer.cs">
+      <DependentUpon>Confirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="db2DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db2DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete.Designer.cs">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loan.Designer.cs">
+      <DependentUpon>Loan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loanpaid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loanpaid.Designer.cs">
+      <DependentUpon>Loanpaid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loanpaids.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Loanpaids.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logininfo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Logininfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Loginlists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loginlists.Designer.cs">
+      <DependentUpon>Loginlists.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainform.Designer.cs">
+      <DependentUpon>Mainform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pendingloan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pendingloan.Designer.cs">
+      <DependentUpon>Pendingloan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practiceduedate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practiceduedate.Designer.cs">
+      <DependentUpon>Practiceduedate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PracticeInterest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PracticeInterest.Designer.cs">
+      <DependentUpon>PracticeInterest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practiceorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practiceorder.Designer.cs">
+      <DependentUpon>Practiceorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Printpayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Printpayment.Designer.cs">
+      <DependentUpon>Printpayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Userinfo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Userinfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Userlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Userlist.Designer.cs">
+      <DependentUpon>Userlist.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Addnewid.resx">
+      <DependentUpon>Addnewid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addusers.resx">
+      <DependentUpon>Addusers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic Info.resx">
+      <DependentUpon>Basic Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Borrowers Info.resx">
+      <DependentUpon>Borrowers Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmation.resx">
+      <DependentUpon>Confirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete.resx">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loan.resx">
+      <DependentUpon>Loan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loanpaid.resx">
+      <DependentUpon>Loanpaid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loginlists.resx">
+      <DependentUpon>Loginlists.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainform.resx">
+      <DependentUpon>Mainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pendingloan.resx">
+      <DependentUpon>Pendingloan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practiceduedate.resx">
+      <DependentUpon>Practiceduedate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PracticeInterest.resx">
+      <DependentUpon>PracticeInterest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practiceorder.resx">
+      <DependentUpon>Practiceorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printpayment.resx">
+      <DependentUpon>Printpayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Userlist.resx">
+      <DependentUpon>Userlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Borrowersinfo.xsc">
+      <DependentUpon>Borrowersinfo.xsd</DependentUpon>
+    </None>
+    <None Include="Borrowersinfo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Borrowersinfo.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Borrowersinfo.xss">
+      <DependentUpon>Borrowersinfo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="db2DataSet3.xsc">
+      <DependentUpon>db2DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="db2DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db2DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db2DataSet3.xss">
+      <DependentUpon>db2DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Loanpaids.xsc">
+      <DependentUpon>Loanpaids.xsd</DependentUpon>
+    </None>
+    <None Include="Loanpaids.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Loanpaids.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Loanpaids.xss">
+      <DependentUpon>Loanpaids.xsd</DependentUpon>
+    </None>
+    <None Include="Logininfo.xsc">
+      <DependentUpon>Logininfo.xsd</DependentUpon>
+    </None>
+    <None Include="Logininfo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Logininfo.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Logininfo.xss">
+      <DependentUpon>Logininfo.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Userinfo.xsc">
+      <DependentUpon>Userinfo.xsd</DependentUpon>
+    </None>
+    <None Include="Userinfo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Userinfo.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Userinfo.xss">
+      <DependentUpon>Userinfo.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image__52737_1493899167.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image__72333_1490929425.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

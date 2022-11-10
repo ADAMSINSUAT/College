@@ -1,0 +1,91 @@
+D:\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Properties.Resources.resources
+D:\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.csproj.GenerateResource.Cache
+D:\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.exe
+D:\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.pdb
+D:\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Form1.resources
+D:\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.exe
+D:\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.pdb
+D:\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Form2.resources
+D:\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.csprojResolveAssemblyReference.cache
+D:\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Delete.resources
+C:\Users\asus\Desktop\oop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.exe
+C:\Users\asus\Desktop\oop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.pdb
+C:\Users\asus\Desktop\oop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.exe
+C:\Users\asus\Desktop\oop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.pdb
+C:\Users\asus\Desktop\oop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\oop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Basic_Info.resources
+C:\Users\asus\Desktop\oop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Delete.resources
+C:\Users\asus\Desktop\oop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Form1.resources
+C:\Users\asus\Desktop\oop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Register.resources
+C:\Users\asus\Desktop\oop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Properties.Resources.resources
+C:\Users\asus\Desktop\oop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.csproj.GenerateResource.Cache
+C:\Users\asus\Desktop\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.exe.config
+C:\Users\asus\Desktop\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.exe
+C:\Users\asus\Desktop\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.pdb
+C:\Users\asus\Desktop\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.exe
+C:\Users\asus\Desktop\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.pdb
+C:\Users\asus\Desktop\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Basic_Info.resources
+C:\Users\asus\Desktop\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Delete.resources
+C:\Users\asus\Desktop\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Form1.resources
+C:\Users\asus\Desktop\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Loan.resources
+C:\Users\asus\Desktop\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Mainform.resources
+C:\Users\asus\Desktop\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Register.resources
+C:\Users\asus\Desktop\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Properties.Resources.resources
+C:\Users\asus\Desktop\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.csproj.GenerateResource.Cache
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.exe.config
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.exe
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.pdb
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Addnewid.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Addusers.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Basic_Info.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Delete.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Form1.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Loan.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Login.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Loginlists.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Mainform.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Practiceduedate.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.PracticeInterest.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Register.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Properties.Resources.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Userlist.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.csproj.GenerateResource.Cache
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.exe
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.pdb
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Practiceorder.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Confirmation.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Printpayment.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Loanpaid.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Borrowers_Info.resources
+C:\Users\asus\Desktop\Adam\Important Files\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Pendingloan.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.exe.config
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.exe
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.pdb
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.exe
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.pdb
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Addnewid.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Addusers.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Basic_Info.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Borrowers_Info.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Confirmation.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Delete.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Form1.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Loan.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Loanpaid.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Login.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Loginlists.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Mainform.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Pendingloan.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Practiceduedate.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.PracticeInterest.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Practiceorder.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Printpayment.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Register.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Properties.Resources.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.Userlist.resources
+C:\Users\asus\Desktop\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.csproj.GenerateResource.Cache
+C:\Users\asus\Desktop\Desktop Files\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\bin\Debug\Exer1.exe.config
+C:\Users\asus\Desktop\Desktop Files\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.exe
+C:\Users\asus\Desktop\Desktop Files\USB\Lending 5.0\CS Sinsuat\Exer1\Exer1\obj\x86\Debug\Exer1.pdb
