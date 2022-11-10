@@ -1,0 +1,80 @@
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\Android Menu Selection System [Admin].exe.config
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\Android Menu Selection System [Admin].exe
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\Android Menu Selection System [Admin].pdb
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\csc.exe
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\csc.exe.config
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\csc.rsp
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\csi.exe
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\csi.exe.config
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\csi.rsp
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\System.Buffers.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\System.Memory.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\System.Numerics.Vectors.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\vbc.exe
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\vbc.exe.config
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\vbc.rsp
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\ToggleSwitch.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\stdole.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android Menu Selection System [Admin].csprojAssemblyReference.cache
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.AddFoodCategory.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.AdminProfileForm.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.ArrayTest.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.DisableCashierForm.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.CashierForm.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.DeleteForm.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.AddFoodForm.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.ManageCashier.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.LoginForm.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.Login_List.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.Main_Menu_Form.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.ManageDiscountForm.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.ManageFoodMenu.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.Properties.Resources.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.Test_Connection.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.UpdateFoodMenu.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.UserListForm.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android Menu Selection System [Admin].csproj.GenerateResource.cache
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android Menu Selection System [Admin].csproj.CopyComplete
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android Menu Selection System [Admin].exe
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android Menu Selection System [Admin].pdb
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.CustomerInvoiceViewer.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.DailySalesForm.resources
+C:\Users\asus\source\repos\Android Menu Selection System [Admin]\obj\Debug\Android_Menu_Selection_System__Admin_.DailySalesViewer.resources

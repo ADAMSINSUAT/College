@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="d:\microsoft visual studio 2019 enterprise\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="C:\Users\asus\source\repos\FoodMenuApp\FoodMenuApp.Android\bin\Debug\FoodMenuApp.Android.dll">
+   <Modules>
+    <Module Name="foodmenuapp.android.dll">
+     <Namespaces>
+      <Namespace Name="FoodMenuApp.Droid">
+       <Types>
+        <Type Name="CustomEntryRenderer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#OnElementChanged(Xamarin.Forms.Platform.Android.ElementChangedEventArgs`1&lt;Xamarin.Forms.Entry&gt;)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2022-04-28 17:53:53Z" FixCategory="DependsOnFix">
+             <Issue Name="MethodReference" Certainty="99" Level="CriticalError">Transparent method 'CustomEntryRenderer.OnElementChanged(ElementChangedEventArgs&lt;Entry&gt;)' references security critical method 'ViewRenderer&lt;Entry, FormsEditText&gt;.Control.get()'.  In order for this reference to be allowed under the security transparency rules, either 'CustomEntryRenderer.OnElementChanged(ElementChangedEventArgs&lt;Entry&gt;)' must become security critical or safe-critical, or 'ViewRenderer&lt;Entry, FormsEditText&gt;.Control.get()' become security safe-critical or transparent.</Issue>
+             <Issue Name="MethodReference" Certainty="99" Level="CriticalError">Transparent method 'CustomEntryRenderer.OnElementChanged(ElementChangedEventArgs&lt;Entry&gt;)' references security critical method 'ViewRenderer&lt;Entry, FormsEditText&gt;.Control.get()'.  In order for this reference to be allowed under the security transparency rules, either 'CustomEntryRenderer.OnElementChanged(ElementChangedEventArgs&lt;Entry&gt;)' must become security critical or safe-critical, or 'ViewRenderer&lt;Entry, FormsEditText&gt;.Control.get()' become security safe-critical or transparent.</Issue>
+             <Issue Name="MethodReference" Certainty="99" Level="CriticalError">Transparent method 'CustomEntryRenderer.OnElementChanged(ElementChangedEventArgs&lt;Entry&gt;)' references security critical method 'ViewRenderer&lt;Entry, FormsEditText&gt;.Control.get()'.  In order for this reference to be allowed under the security transparency rules, either 'CustomEntryRenderer.OnElementChanged(ElementChangedEventArgs&lt;Entry&gt;)' must become security critical or safe-critical, or 'ViewRenderer&lt;Entry, FormsEditText&gt;.Control.get()' become security safe-critical or transparent.</Issue>
+             <Issue Name="Parameter" Certainty="99" Level="CriticalError">Transparent method 'CustomEntryRenderer.OnElementChanged(ElementChangedEventArgs&lt;Entry&gt;)' has parameter 'e' of security critical type 'ElementChangedEventArgs&lt;Entry&gt;'.  In order for this parameter to be allowed under the security transparency rules, either 'CustomEntryRenderer.OnElementChanged(ElementChangedEventArgs&lt;Entry&gt;)' must become security critical or safe-critical, or 'ElementChangedEventArgs&lt;Entry&gt;' must become security safe-critical or transparent.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MainActivity" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#OnCreate(Android.OS.Bundle)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2022-04-28 17:53:53Z" FixCategory="DependsOnFix">
+             <Issue Name="MethodReference" Certainty="99" Level="CriticalError">Transparent method 'MainActivity.OnCreate(Bundle)' references security critical method 'App.App()'.  In order for this reference to be allowed under the security transparency rules, either 'MainActivity.OnCreate(Bundle)' must become security critical or safe-critical, or 'App.App()' become security safe-critical or transparent.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MainApplication" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2022-04-28 17:53:53Z" FixCategory="Breaking">
+           <Issue Name="IDisposableReimplementation" Certainty="95" Level="Error">Remove IDisposable from the list of interfaces implemented by 'MainApplication' and override the base class Dispose implementation instead.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ToolbarItemBadgeService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesMustBeAtLeastAsCriticalAsBaseTypesFxCopRule" Category="Microsoft.Security" CheckId="CA2146" Status="Active" Created="2022-04-28 17:53:53Z" FixCategory="DependsOnFix">
+           <Issue Name="DeriveFromCritical" Certainty="99" Level="CriticalError">Transparent or safe-critical type 'ToolbarItemBadgeService' derives from critical type 'IToolbarItemBadgeService' in violation of the transparency inheritance rules.  'ToolbarItemBadgeService' must be critical to derive from a critical type or implement a critical interface.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#SetBadge(Xamarin.Forms.Page,Xamarin.Forms.ToolbarItem,System.String,Xamarin.Forms.Color,Xamarin.Forms.Color)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MethodsMustOverrideWithConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2134" Status="Active" Created="2022-04-28 17:53:53Z" FixCategory="DependsOnFix">
+             <Issue Name="TransparentOverrideCritical" Certainty="99" Level="CriticalError">Transparent or safe critical method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' is overriding critical method 'IToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' in violation of method override rules.  'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical in order to override a critical virtual method or implement a critical interface method.</Issue>
+            </Message>
+            <Message TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123" Status="Active" Created="2022-04-28 17:53:53Z" FixCategory="Breaking">
+             <Issue Name="BaseOnly" Certainty="33" Level="CriticalError">Add the following security attribute to 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' in order to match a LinkDemand on base method 'IToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)':  'SecurityCriticalAttribute'.</Issue>
+            </Message>
+            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2022-04-28 17:53:53Z" FixCategory="DependsOnFix">
+             <Issue Name="MethodReference" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' references security critical method 'Device.BeginInvokeOnMainThread(Action)'.  In order for this reference to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'Device.BeginInvokeOnMainThread(Action)' become security safe-critical or transparent.</Issue>
+             <Issue Name="MethodReference" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' references security critical method 'IList&lt;ToolbarItem&gt;.IndexOf(ToolbarItem)'.  In order for this reference to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'IList&lt;ToolbarItem&gt;.IndexOf(ToolbarItem)' become security safe-critical or transparent.</Issue>
+             <Issue Name="MethodReference" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' references security critical method 'Page.ToolbarItems.get()'.  In order for this reference to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'Page.ToolbarItems.get()' become security safe-critical or transparent.</Issue>
+             <Issue Name="Parameter" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' has parameter 'backgroundColor' of security critical type 'Color'.  In order for this parameter to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'Color' must become security safe-critical or transparent.</Issue>
+             <Issue Name="Parameter" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' has parameter 'item' of security critical type 'ToolbarItem'.  In order for this parameter to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'ToolbarItem' must become security safe-critical or transparent.</Issue>
+             <Issue Name="Parameter" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' has parameter 'page' of security critical type 'Page'.  In order for this parameter to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'Page' must become security safe-critical or transparent.</Issue>
+             <Issue Name="Parameter" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' has parameter 'textColor' of security critical type 'Color'.  In order for this parameter to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'Color' must become security safe-critical or transparent.</Issue>
+             <Issue Name="TypeReference" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' references security critical type 'Color'.  In order for this reference to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'Color' become security safe-critical or transparent.</Issue>
+             <Issue Name="TypeReference" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' references security critical type 'Color'.  In order for this reference to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'Color' become security safe-critical or transparent.</Issue>
+             <Issue Name="TypeReference" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' references security critical type 'Color'.  In order for this reference to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'Color' become security safe-critical or transparent.</Issue>
+             <Issue Name="TypeReference" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' references security critical type 'Color'.  In order for this reference to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'Color' become security safe-critical or transparent.</Issue>
+             <Issue Name="TypeReference" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' references security critical type 'Page'.  In order for this reference to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'Page' become security safe-critical or transparent.</Issue>
+             <Issue Name="TypeReference" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' references security critical type 'Page'.  In order for this reference to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'Page' become security safe-critical or transparent.</Issue>
+             <Issue Name="TypeReference" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' references security critical type 'ToolbarItem'.  In order for this reference to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'ToolbarItem' become security safe-critical or transparent.</Issue>
+             <Issue Name="TypeReference" Certainty="99" Level="CriticalError">Transparent method 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' references security critical type 'ToolbarItem'.  In order for this reference to be allowed under the security transparency rules, either 'ToolbarItemBadgeService.SetBadge(Page, ToolbarItem, string, Color, Color)' must become security critical or safe-critical, or 'ToolbarItem' become security safe-critical or transparent.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063">
+   <Name>Implement IDisposable correctly</Name>
+   <Description>All IDisposable types should implement the Dispose pattern correctly.</Description>
+   <Resolution Name="IDisposableReimplementation">Remove IDisposable from the list of interfaces implemented by {0} and override the base class Dispose implementation instead.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms244737.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="MethodsMustOverrideWithConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2134">
+   <Name>Methods must keep consistent transparency when overriding base methods</Name>
+   <Description>Transparency visibility must be preserved between overriding methods and the methods that are being overridden.  If the virtual method being overridden or interface method being implemented is security safe-critical or security transparent, then the overriding method must also be either security safe-critical or security transparent.  Similarly, if the method being overridden is security critical, the overriding method must be security critical.</Description>
+   <Resolution Name="TransparentOverrideCritical">Transparent or safe critical method {0} is overriding critical method {1} in violation of method override rules.  {0} must become security critical in order to override a critical virtual method or implement a critical interface method.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/dd997447(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="99">CriticalError</MessageLevel>
+   <File Name="securitytransparencyrules.dll" Version="4.0.0.0" />
+  </Rule>
+  <Rule TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123">
+   <Name>Override link demands should be identical to base</Name>
+   <Description>If a virtual method has a LinkDemand, in many cases, so should any override of it, and if an override has a LinkDemand, so should the overridden virtual method. Because it is possible to call any of the overrides of a virtual method explicitly, they should all have the same LinkDemand status or, if not, should be reviewed. This also applies to LinkDemand security checks for methods that part of an interface implementation, because the caller might use an interface-typed reference to access the method.</Description>
+   <Resolution Name="BaseOnly">Add the following security attribute to {0} in order to match a LinkDemand on base method {1}:  {2}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182305(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="33">CriticalError</MessageLevel>
+   <File Name="securitytransparencyrules.dll" Version="4.0.0.0" />
+  </Rule>
+  <Rule TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140">
+   <Name>Transparent code must not reference security critical items</Name>
+   <Description>Transparent code cannot refer to security critical methods, types, or fields.  At runtime these references will result in MemberAccessExceptions or TypeLoadExceptions.</Description>
+   <Resolution Name="MethodReference">Transparent method {0} references security critical method {1}.  In order for this reference to be allowed under the security transparency rules, either {0} must become security critical or safe-critical, or {1} become security safe-critical or transparent.</Resolution>
+   <Resolution Name="Parameter">Transparent method {0} has parameter {1} of security critical type {2}.  In order for this parameter to be allowed under the security transparency rules, either {0} must become security critical or safe-critical, or {2} must become security safe-critical or transparent.</Resolution>
+   <Resolution Name="TypeReference">Transparent method {0} references security critical type {1}.  In order for this reference to be allowed under the security transparency rules, either {0} must become security critical or safe-critical, or {1} become security safe-critical or transparent.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264475(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="99">CriticalError</MessageLevel>
+   <File Name="securitytransparencyrules.dll" Version="4.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesMustBeAtLeastAsCriticalAsBaseTypesFxCopRule" Category="Microsoft.Security" CheckId="CA2146">
+   <Name>Types must be at least as critical as their base types and interfaces</Name>
+   <Description>While any type may derive from a transparent type or interface, restrictions apply as to the types that can inherit from or implement safe-critical or critical types.  Only safe-critical or critical types may derive from or implement safe-critical interfaces and base types.  Only critical types may derive from or implement critical interfaces and base types.</Description>
+   <Resolution Name="DeriveFromCritical">Transparent or safe-critical type {0} derives from critical type {1} in violation of the transparency inheritance rules.  {0} must be critical to derive from a critical type or implement a critical interface.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/dd997443(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="99">CriticalError</MessageLevel>
+   <File Name="securitytransparencyrules.dll" Version="4.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

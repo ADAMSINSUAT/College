@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:FoodMenuApp;assembly=FoodMenuApp"
+             mc:Ignorable="d"
+             xmlns:fish="clr-namespace:FoodMenuApp.CustomRenderer"
+             x:Class="FoodMenuApp.FoodQueueDetailsPage">
+    <ContentPage.Resources>
+        <local:ByteArrayToImageConverter x:Key="ByteArraytoImage"/>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout.GestureRecognizers>
+                <SwipeGestureRecognizer Direction="Down" 
+                                        Swiped="SwipeGestureRecognizer_Swiped_Down">
+                </SwipeGestureRecognizer>
+            </StackLayout.GestureRecognizers>
+            <Grid Padding="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <!--<RowDefinition Height="*"></RowDefinition>-->
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <BoxView Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="DarkGreen"  HeightRequest="60" CornerRadius="0" VerticalOptions="FillAndExpand"></BoxView>
+                <Image Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2" x:Name="ImgFoodPic" Source="{Binding FoodPic}" HorizontalOptions="Center" VerticalOptions="FillAndExpand"></Image>
+                <Label Grid.Row="2" Grid.RowSpan="3" Grid.Column="0" x:Name="txtOrderName" Text="Item Ordered:" FontSize="Title" HorizontalTextAlignment="Center"></Label>
+                <Label Grid.Row="2" Grid.RowSpan="3" Grid.Column="1" x:Name="txtFoodName" Text="{Binding Item}" FontSize="Title" HorizontalTextAlignment="Center"></Label>
+                <Label Grid.Row="4" Grid.Column="0" x:Name="txtPrice" Text="Price:" FontSize="Title" HorizontalTextAlignment="Center"></Label>
+                <Label Grid.Row="4" Grid.Column="1"  x:Name="txtFoodPrice" Text="{Binding Price}" FontSize="Title" HorizontalTextAlignment="Center"></Label>
+                <Label Grid.Row="5" Grid.Column="0" x:Name="txtAmount" Text="Amount:" FontSize="Title" HorizontalTextAlignment="Center"></Label>
+                <Label Grid.Row="5" Grid.Column="1"  x:Name="txtPriceAmount" Text="{Binding PriceAmount}" FontSize="Title" HorizontalTextAlignment="Center"></Label>
+                <Label Grid.Row="7" Grid.Column="0"  x:Name="txtQuantity" Text="Quantity to be ordered:" FontSize="20"  HorizontalTextAlignment="Center"></Label>
+                <fish:CustomEntry Grid.Row="7" Grid.Column="1"  x:Name="txtFoodQuantity" FontSize="18" BindingContext="{x:Reference stepper}" Text="{Binding Value}" TextChanged="txtFoodQuantity_TextChanged" WidthRequest="40" HorizontalTextAlignment="Center" MaxLength="3" Keyboard="Numeric"></fish:CustomEntry>
+                <!--</StackLayout>-->
+                <Stepper Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" x:Name="stepper" Minimum="1" Maximum="100" Increment="1" BindingContext="{x:Reference txtFoodQuantity}" Value="{Binding Text}" HorizontalOptions="Center"/>
+                <Button Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" x:Name="BtnChangeQuantity" Text="Change Quantity" IsEnabled="False" Clicked="BtnChangeQuantity_Clicked" HorizontalOptions="CenterAndExpand"></Button>
+                <!--</StackLayout>-->
+            </Grid>
+            <!--TextChanged="OnCustomEntry_Changed"-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
