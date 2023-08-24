@@ -1,2 +1,0 @@
-# Lemondrop
-Internship at Lemondrop
